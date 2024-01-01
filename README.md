@@ -94,6 +94,7 @@ Pada Tahap ini kita lakukan EDA
     df.isnull().sum()
     ```
     oke tidak ada yang kosong
+  
     Selanjutnya kita lakukan pembersihan spasi kosong yang mungkin ada di bagian awal atau akhir nama kolom dalam Data
     ```bash
     df.columns = df.columns.str.strip()
