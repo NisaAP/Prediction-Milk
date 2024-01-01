@@ -247,7 +247,7 @@ Metrik evaluasi yang digunkan yaitu Akurasi dan Confusion Matrix.
   - False Negative (FN): Prediksi yang salah untuk kelas negatif.
 
 
-Berikut hasil visualisasi confusion matrix
+Berikut hasil visualisasi confusion matrix <br>
 ![gambar](img/cm.png)
 <br>Dari gambar diatas dapet simpulkan bahwa model tampaknya memiliki kinerja yang baik, karena sebagian besar prediksi adalah benar (terlihat dari nilai di diagonal matriks)
 
