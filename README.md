@@ -157,8 +157,8 @@ Pada Tahap ini kita lakukan EDA
     ```
      ![gambar](img/6.png)
 
-- <b>Data preparation</b>
-    merubah data pada kolom grade menjadi bentuk numerik 
+- <b>Data preparation</b> <br>
+    Merubah data pada kolom grade menjadi bentuk numerik 
     ```bash
     df['Grade']=df['Grade'].map({'low':0,'medium':1,'high':2})
     df.head().
