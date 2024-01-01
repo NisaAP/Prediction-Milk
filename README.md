@@ -40,7 +40,7 @@ Dalam proyek ini dataset yang digunakan berasal dari kaggle yang berisi data kua
 ## Data Preparation
 Pada Tahap ini kita lakukan EDA
 
-- Import Dataset
+- <b>Import Dataset</b>
     karena kita menggunakan google colab maka langkah pertama kita hubungkan google colab dengan kaggle 
     ```bash
     from google.colab import files
@@ -98,7 +98,7 @@ Pada Tahap ini kita lakukan EDA
     ```bash
     df.columns = df.columns.str.strip()
     ```
-- <b> EDA</b>
+- <b> EDA</b> <br>
     Kita gambarkan visualisasi dengan pie plot untuk melihat distribusi pada Grade.
     ```bash
     plt.figure(figsize=(5, 5))
