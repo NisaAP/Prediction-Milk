@@ -165,7 +165,9 @@ Pada Tahap ini kita lakukan EDA
     ```
     Kita lakukan seleksi fitur dengan memisahkan mana saja atribut yang akan dijadikan sebagai fitur dan atribut mana yang dijadikan label.
     ```bash
-   
+    features=['pH','Temprature','Taste','Odor','Fat','Turbidity','Colour']
+    X=df[features]
+    y=df['Grade']
     ```
     Pada script tersebut kita gunakan resoloution, ppi, cpu core, cpu freq,internal mem,ram, RearCam, Front_Cam, battery dan thickness sebagai fitur yang nantinya akan kita jadikan inputan. Sedangkan price kita jadikan sebagai label karena price merupakan nilai yang akan diestimasi.
 
