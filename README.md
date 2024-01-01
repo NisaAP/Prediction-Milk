@@ -170,7 +170,7 @@ Pada Tahap ini kita lakukan EDA
     X=df[features]
     y=df['Grade']
     ```
-    Pada script tersebut kita gunakan resoloution, ppi, cpu core, cpu freq,internal mem,ram, RearCam, Front_Cam, battery dan thickness sebagai fitur yang nantinya akan kita jadikan inputan. Sedangkan price kita jadikan sebagai label karena price merupakan nilai yang akan diestimasi.
+    Pada script tersebut kita gunakan pH,Temprature,Taste,Odor,Fat,Turbidity,Colour sebagai fitur yang nantinya akan kita jadikan inputan. Sedangkan Grade kita jadikan sebagai label karena Grade merupakan nilai yang akan prediksi.
 
     lanjut kita ke tahap modeling
 ## Modeling
