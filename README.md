@@ -249,7 +249,7 @@ Metrik evaluasi yang digunkan yaitu Akurasi dan Confusion Matrix.
 
 Berikut hasil visualisasi confusion matrix
 ![gambar](img/cm.png)
-Dari gambar diatas dapet simpulkan bahwa model tampaknya memiliki kinerja yang baik, karena sebagian besar prediksi adalah benar (terlihat dari nilai di diagonal matriks)
+<br>Dari gambar diatas dapet simpulkan bahwa model tampaknya memiliki kinerja yang baik, karena sebagian besar prediksi adalah benar (terlihat dari nilai di diagonal matriks)
 
 ## Deployment
 [App Milk Quality Prediction](https://prediction-milk-4zynmn8fo6lvvuqjfxytwu.streamlit.app/)
